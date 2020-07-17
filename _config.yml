@@ -28,7 +28,7 @@ url: "https://peter-dye.github.io" # the base hostname & protocol for your site,
 github_username:  peter-dye
 
 # Build settings
-remote_theme: sproogen/modern-resume-theme
+theme: minima
 plugins:
   - jekyll-feed
 
