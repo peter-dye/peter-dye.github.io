@@ -43,8 +43,8 @@ about_content: | # this will include new lines to allow paragraphs
 more_content: | # this will include new lines to allow paragraphs
   Some of my other interests and hobbies are:
    - Flying airplanes and sailplanes; I have two pilots licenses!
-   - Cooking and baking; I love trying new techniques and working with new ingredients
-   - Reading and learning; I enjoy a good book, expecially sci-fi, and love to investigate new things
+   - Cooking and baking; I love trying new techniques and working with new ingredients!
+   - Reading and learning; I enjoy a good book, expecially sci-fi, and love to investigate new things!
 
 # Footer
 footer_show_references: false
