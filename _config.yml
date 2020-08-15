@@ -9,6 +9,9 @@ title: ECE Student at University of Waterloo
 email: peter.dye@uwaterloo.ca
 website: peter-dye.github.io
 
+# Dark Mode (true/false/never)
+darkmode: false
+
 # Social links
 # twitter_username: facespics
 github_username: peter-dye
@@ -20,6 +23,13 @@ github_username: peter-dye
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "UA-175458823-1"
+# google_analytics: "UA-00000000-0"
+
 
 # About Section
 # about_title: About Me
@@ -50,7 +60,7 @@ more_content: | # this will include new lines to allow paragraphs
 footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
