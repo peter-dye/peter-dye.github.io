@@ -27,7 +27,7 @@ github_username: peter-dye
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-gtag: "UA-175458823-1"
+# gtag: "UA-175458823-1"
 # google_analytics: "UA-00000000-0"
 
 
@@ -37,7 +37,19 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi! My name is Peter and I am a fourth year student at UWaterloo. I'm studying Electrical Engineering with an Option in Computer Engineering.
 
-  I am most skilled in: <mark>Python</mark>
+  I have experience in a whole variety of areas! Some of my favourites include <mark>Python</mark> and the <mark>SciPy</mark> ecosystem, <mark>MATLAB</mark> and <mark>Octave</mark>, <mark>Linux</mark> and <mark>open source software</mark>, <mark>realtional databases</mark> and <mark>SQL</mark>, and <mark>algortithms</mark>!
+
+  I am also comfortable with <mark>Git</mark> and <mark>Github</mark>, <mark>C</mark>, <mark>C++</mark>, and <mark>Java</mark>. Of course, I'm quite profficient in <mark>Microsoft Office</mark>, especially <mark>Word</mark> and <mark>Excel</mark>.
+
+  I have good <mark>communication skills</mark> that have been proven many times. I have had outstanding results on technical reports and presentations, and even won an award for the quality of writing in one of my reports! I regularly work in and lead many teams, both for school activities and work projects.
+
+  Some courses that I have really enjoyed (and done well in) are:
+    - Operating Systems and Systems Programming
+    - Compilers
+    - Database Systems
+    - Robot Dynamics and Control
+    - Computer Security
+    - Cooperative and Adaptive Algorithms
 
 # Projects Section
 # projects_title: Projects
@@ -54,7 +66,9 @@ more_content: | # this will include new lines to allow paragraphs
   Some of my other interests and hobbies are:
    - Flying airplanes and sailplanes; I have two pilots licenses!
    - Cooking and baking; I love trying new techniques and working with new ingredients!
-   - Reading and learning; I enjoy a good book, expecially sci-fi, and love to investigate new things!
+   - Biking; expecially mountain biking and downhilling!
+   - Skiing; the bigger the mountain the better!
+   - Reading and learning; I enjoy a good book, especially sci-fi, and love to investigate new things!
 
 # Footer
 footer_show_references: false
