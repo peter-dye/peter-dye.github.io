@@ -1,4 +1,14 @@
 - layout: left
+  company: Northpoint Life Sciences
+  link: nplifesciences.com
+  job_title: Coop Software Lead
+  dates: Sept 2020 - Current
+  quote: >
+   Northpoint Life Sciences is a dynamic new startup in the medical technology field. Their main device under development is an electrical impedance tomography (EIT) lung monitoring system.
+  description: | # this will include new lines to allow paragraphs
+    I currently lead the coop software team in all aspects of software development for the new [EIT](https://en.wikipedia.org/wiki/Electrical_impedance_tomography){:target="_blank"} device. In this role I get to expereince many different types of software development. On a typical day, I work on advanced reconstruction algorithms using [EIDORS](http://eidors3d.sourceforge.net/) in MATLAB/Octave, assign tasks to and get results from my team, and work on implementing fast SPI communication with FPGAs by hooking C code into [Octave](https://www.gnu.org/software/octave/){:target="_blank"}.
+
+- layout: left
   company: Brock Solutions
   link: brocksolutions.com
   job_title: Controls Engineering
@@ -23,7 +33,8 @@
     - Developed communication techniques to manage competing deadlines through upwards management
     -	Deepened experience in electrical system design techniques, as well as in the consulting industry as a whole
     -	Performed site visits to map existing conditions and investigate design solutions
-    -	Expanded and improved on skills gained from working at Stantec (below)
+    - Developed efficeint business processes to complete regular work as fast as possible
+    -	Expanded and improved on skills gained from working at Stantec
 
 - layout: left
   company: Stantec
@@ -37,7 +48,7 @@
     -	Experience working on new construction and tenant fit-out for office, retail, warehouse, hospitals and airports
     -	Designed building systems such as power, lighting, fire alarm and security in accordance with the OESC, OBC, and NFC
     -	Well versed in modelling building electrical systems using Revit and AutoCAD
-    -	Coordinated with architects, interior designers, mechanical and structural teams for seamless design
+    -	Coordinated with architects, interior designers, mechanical, and structural teams for seamless design
 
 
 - layout: left
