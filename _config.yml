@@ -37,7 +37,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi! My name is Peter and I am a fourth year student at UWaterloo. I'm studying Electrical Engineering with an Option in Computer Engineering.
 
-  I have experience in a whole variety of areas! Some of my favourites include <mark>Python</mark> and the <mark>SciPy</mark> ecosystem, <mark>MATLAB</mark> and <mark>Octave</mark>, <mark>Linux</mark> and <mark>open source software</mark>, <mark>realtional databases</mark> and <mark>SQL</mark>, and <mark>algortithms</mark>!
+  I have experience in a whole variety of areas! Some of my favourites include <mark>Python</mark> and the <mark>SciPy</mark> ecosystem, <mark>MATLAB</mark> and <mark>Octave</mark>, <mark>Linux</mark> and <mark>open source software</mark>, <mark>realtional databases</mark> and <mark>SQL</mark>, and <mark>algorithms</mark>!
 
   I am also comfortable with <mark>Git</mark> and <mark>Github</mark>, <mark>C</mark>, <mark>C++</mark>, and <mark>Java</mark>. Of course, I'm quite profficient in <mark>Microsoft Office</mark>, especially <mark>Word</mark> and <mark>Excel</mark>.
 
