@@ -1,0 +1,17 @@
+- layout: top-middle
+  name: ButtBot
+  link: github.com/peter-dye/ButtBot
+  github: peter-dye/ButtBot
+  quote: >
+    An autonomous cigarette butt collection and disposal robot.
+  description: | # this will include new lines to allow paragraphs
+    ButtBot is an autonomous ground vehicle that drives around a given space and uses computer vision to identify and collect cigarette butts. The brain of the robot is an [<mark>NVIDIA Jetson Nano</mark>](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/){:target="_blank"}. The smarts of the robot are written in <mark>Python</mark> and make use of many popular libraries. For the computer vision and deep learning we use <mark>OpenCV</mark>, <mark>TensorFlow</mark>, and <mark>Keras</mark>. The project also makes use of <mark>multi-threading</mark> and <mark>multi-processing</mark> to manage and coordinate the different functions of the robot. I am working on this project with 4 of my peers, with myself and one other project member taking responsibility for all the software componenets.
+
+- layout: top-middle
+  name: Calculux
+  link: github.com/peter-dye/Calculux
+  github: peter-dye/Calculux
+  quote: >
+    Calculator Delux, the fastest and most convenient desktop calculator app for engineers.
+  description: | # this will include new lines to allow paragraphs
+    Calculux is a desktop calculator app I developed becuase existing apps did not provide the features that I wanted. Calculux allows you to access every single button on the calculator using only the numpad, Alt modifier, and the Control (Windows) or Command (MacOS) modifier keys. This cuts out slow and clumsy mouse movements. Calculux also implements math capabilities that most other off-the-shelf calculator apps don't, such as complex number calculations. I developed Calculux in <mark>Python</mark>, and used <mark>PyQt5</mark> to develop the graphical interface with the [<mark>Qt</mark>](https://www.qt.io/){:target="_blank"} framework. I used the [<mark>fman build system</mark>](https://build-system.fman.io/){:target="_blank"} to package the application and make installers for both Windows and MacOS. I learned a lot about desktop application development from this project, especially regarding packaging and distributing apps. I released Calculux as an open source project under the GNU GPL v3.
