@@ -4,12 +4,12 @@
   job_title: Coop Software Lead
   dates: Sept 2020 - Dec 2020
   quote: >
-   Northpoint Life Sciences is a dynamic new startup in the medical technology field. Their main device under development is an electrical impedance tomography (EIT) lung monitoring system.
+   Northpoint Life Sciences is a dynamic new startup in the medical technology field.
   description: | # this will include new lines to allow paragraphs
     - Successfully lead software team by exceeding expectations with the final product that was delivered
-    - Architected and developed GUI application that interfaces with embedded hardware to reconstruct and dislay [EIT](https://en.wikipedia.org/wiki/Electrical_impedance_tomography){:target="_blank"} images in real time
+    - Architected and developed GUI application that interfaces with embedded hardware to reconstruct and dislay medical images in real time
         - Used Python, Qt through PyQt5, and pyqtgraph, as well as [Cython](https://cython.org/){:target="_blank"} and multithreading for real time images
-    - Modelled advanced image reconstruction algorithms in MATLAB/[Octave](https://octave.sourceforge.io/){:target="_blank"} using the [EIDORS](http://eidors3d.sourceforge.net/){:target="_blank"} library
+    - Modelled advanced image reconstruction algorithms in MATLAB/[Octave](https://octave.sourceforge.io/){:target="_blank"}
     - Developed fast embedded system communication to an FPGA using the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface){:target="_blank"} protocol
 
 - layout: left
