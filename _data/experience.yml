@@ -1,70 +1,81 @@
 - layout: left
+  company: Brock Solutions
+  link: brocksolutions.com
+  job_title: Software Developer
+  dates: May 2021 - Present
+  quote: >
+   Brock Solutions is an engineering solutions and professional services company specializing in the design, build and implementation of real-time solutions for broad based industrial/manufacturing and transportation/logistics organizations globally.
+  description: | # this will include new lines to allow paragraphs
+    - Architected and developed automation tools for AutoCAD using C# and .NET.
+    - Took the initiative to implement logging for the automation tools.
+    - Refactored existing code base organization to bring it up to standard with .NET best practices.
+
+- layout: left
   company: Tidal Medical
   link: tidalmedical.com
-  job_title: Coop Software Lead
+  job_title: Software Lead (Coop)
   dates: Sept 2020 - Dec 2020
   quote: >
    Tidal Medical is a dynamic new startup in the medical technology field.
   description: | # this will include new lines to allow paragraphs
-    - Successfully lead software team by exceeding expectations with the final product that was delivered
-    - Architected and developed GUI application that interfaces with embedded hardware to reconstruct and dislay medical images in real time
-        - Used Python, Qt through PyQt5, and pyqtgraph, as well as [Cython](https://cython.org/){:target="_blank"} and multithreading for real time images
-    - Modelled advanced image reconstruction algorithms in MATLAB/[Octave](https://octave.sourceforge.io/){:target="_blank"}
-    - Developed fast embedded system communication to an FPGA using the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface){:target="_blank"} protocol
+    - Successfully lead software team by exceeding expectations with the final product that was developed.
+    - Architected and developed a GUI application that interfaces with embedded hardware to reconstruct and dislay medical images in real time.
+        - Used Python, Qt through PyQt5, and pyqtgraph, as well as [Cython](https://cython.org/){:target="_blank"} and multithreading for real time images.
+    - Modelled advanced image reconstruction algorithms in MATLAB/[Octave](https://octave.sourceforge.io/){:target="_blank"}.
+    - Developed fast embedded system communication to an FPGA using the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface){:target="_blank"} protocol.
 
 - layout: left
   company: Brock Solutions
   link: brocksolutions.com
-  job_title: Controls Engineering
+  job_title: Controls Engineering (Coop)
   dates: Sept - Dec 2019
   quote: >
    Brock Solutions is an engineering solutions and professional services company specializing in the design, build and implementation of real-time solutions for broad based industrial/manufacturing and transportation/logistics organizations globally.
   description: | # this will include new lines to allow paragraphs
-    - Developed Python script to significantly speed up PLC tag generation process
-    - Learned about the whole software development cycle for PLCs
-    - Performed QA and controls systems validation with PICS and AutoMod simulation programs
-    - Gained lots of experience programming with Ladder Logic to solve a variety of controls problems
-    - Implemented controls solutions using inter-PLC communication and redundant PLC systems
+    - Developed Python script to significantly speed up PLC tag generation process.
+    - Learned about the whole software development cycle for PLCs.
+    - Performed QA and controls systems validation with PICS and AutoMod simulation programs.
+    - Gained lots of experience programming with Ladder Logic to solve a variety of controls problems.
+    - Implemented controls solutions using inter-PLC communication and redundant PLC systems.
 
 - layout: left
   company: Smith + Andersen
   link: smithandandersen.com
-  job_title: Junior Electrical Designer
+  job_title: Junior Electrical Designer (Coop)
   dates: Jan - Apr 2019
   quote: >
    Smith + Andersen is a trusted Canadian mechanical and electrical consultanting engineering firm, reaching new levels of engineering and design excellence in the communications, security, and audiovisual fields.
   description: | # this will include new lines to allow paragraphs
-    - Developed communication techniques to manage competing deadlines through upwards management
-    -	Deepened experience in electrical system design techniques, as well as in the consulting industry as a whole
-    -	Performed site visits to map existing conditions and investigate design solutions
-    - Developed efficeint business processes to complete regular work as fast as possible
-    -	Expanded and improved on skills gained from working at Stantec
+    - Developed communication techniques to manage competing deadlines through upwards management.
+    -	Deepened experience in electrical system design techniques, as well as in the consulting industry as a whole.
+    -	Performed site visits to map existing conditions and investigate design solutions.
+    -	Expanded and improved on skills gained from working at Stantec.
 
 - layout: left
   company: Stantec
   link: stantec.com
-  job_title: Electrical Design Assistant
+  job_title: Electrical Design Assistant (Coop)
   dates: May - Aug 2018
   quote: >
    Designers, engineers, scientists, and project managers, innovating together at the intersection of community, creativity, and client relationships. Designing with community in mind.
   description: | # this will include new lines to allow paragraphs
-    -	Developed feeder size calculator in Excel to increase efficiency of feeder sizing by around 80%
-    -	Experience working on new construction and tenant fit-out for office, retail, warehouse, hospitals and airports
-    -	Designed building systems such as power, lighting, fire alarm and security in accordance with the OESC, OBC, and NFC
-    -	Well versed in modelling building electrical systems using Revit and AutoCAD
-    -	Coordinated with architects, interior designers, mechanical, and structural teams for seamless design
+    -	Developed feeder size calculator in Excel to increase efficiency of feeder sizing by around 80%.
+    -	Experience working on new construction and tenant fit-out for office, retail, warehouse, hospitals and airports.
+    -	Designed building systems such as power, lighting, fire alarm and security in accordance with the OESC, OBC, and NFC.
+    -	Well versed in modelling building electrical systems using Revit and AutoCAD.
+    -	Coordinated with architects, interior designers, mechanical, and structural teams for seamless design.
 
 
 - layout: left
   company: NAV CANADA
   link: navcanada.ca
-  job_title: Engineering Coop Student
+  job_title: Engineering Student (Coop)
   dates: Jan - Apr & Sept - Dec 2018
   quote: >
    Canada's Air Navigation Service Provider, keeping airplanes safe from coast to coast.
   description: | # this will include new lines to allow paragraphs
-    -	Developed and implemented an algorithm to graph data gathered from a precipitation sensor
-    -	Developed a system to record weather data from various sensors using a web-based environment on Raspberry Pi
-    -	Created and modified technical schematics in AutoCAD while adhering to company standards
-    -	Designed a power supply to be integrated into an existing system
-    -	Authored technical documentation for installation and upkeep of airport weather systems
+    -	Developed and implemented an algorithm to graph data gathered from a precipitation sensor.
+    -	Developed a system to record weather data from various sensors using a web-based environment on Raspberry Pi.
+    -	Created and modified technical schematics in AutoCAD while adhering to company standards.
+    -	Designed a power supply to be integrated into an existing system.
+    -	Authored technical documentation for installation and upkeep of airport weather systems.

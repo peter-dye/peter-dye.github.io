@@ -5,13 +5,31 @@
   quote: >
     An autonomous cigarette butt collection and disposal robot.
   description: | # this will include new lines to allow paragraphs
-    ButtBot is an autonomous ground vehicle that drives around a given space and uses computer vision to identify and collect cigarette butts. The brain of the robot is an [<mark>NVIDIA Jetson Nano</mark>](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/){:target="_blank"}. The smarts of the robot are written in <mark>Python</mark> and make use of many popular libraries. For the computer vision and deep learning we use <mark>OpenCV</mark>, <mark>TensorFlow</mark>, and <mark>Keras</mark>. The project also makes use of <mark>multi-threading</mark> and <mark>multi-processing</mark> to manage and coordinate the different functions of the robot. I am working on this project with 4 of my peers, with myself and one other project member taking responsibility for all the software componenets.
+    ButtBot is an autonomous ground vehicle that drives around a given space and uses computer vision to identify and collect cigarette butts. The brain of the robot is a [<mark>NVIDIA Jetson Nano</mark>](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/){:target="_blank"}. The smarts of the robot are written in <mark>Python</mark> and make use of many popular libraries. For the computer vision and deep learning we use <mark>OpenCV</mark>, <mark>TensorFlow</mark>, and <mark>Keras</mark>. The project also makes use of <mark>multi-threading</mark> and <mark>multi-processing</mark> to manage and coordinate the different functions of the robot. This is my fourth-year capstone project that I worked on with 4 of my peers, with myself and one other project member taking responsibility for all the software componenets.
 
 - layout: top-middle
   name: Calculux
   link: github.com/peter-dye/Calculux
   github: peter-dye/Calculux
   quote: >
-    Calculator Delux, the fastest and most convenient desktop calculator app for engineers.
+    Calculator Delux, the most convenient desktop calculator app for engineers.
   description: | # this will include new lines to allow paragraphs
-    Calculux is a desktop calculator app I developed becuase existing apps did not provide the features that I wanted. Calculux allows you to access every single button on the calculator using only the numpad, Alt modifier, and the Control (Windows) or Command (MacOS) modifier keys. This cuts out slow and clumsy mouse movements. Calculux also implements math capabilities that most other off-the-shelf calculator apps don't, such as complex number calculations. I developed Calculux in <mark>Python</mark>, and used <mark>PyQt5</mark> to develop the graphical interface with the [<mark>Qt</mark>](https://www.qt.io/){:target="_blank"} framework. I used the [<mark>fman build system</mark>](https://build-system.fman.io/){:target="_blank"} to package the application and make installers for both Windows and MacOS. I learned a lot about desktop application development from this project, especially regarding packaging and distributing apps. I released Calculux as an open source project under the GNU GPL v3.
+    Calculux is a desktop calculator app I developed becuase existing apps did not provide the features that I wanted. Calculux allows you to access every single button on the calculator using only the numpad, Alt modifier, and the Control (Windows) or Command (MacOS) modifier keys. This eliminates slow and clumsy mouse movements. Calculux also implements math capabilities that most other off-the-shelf calculator apps don't, such as complex number calculations. I developed Calculux in <mark>Python</mark>, and used <mark>PyQt5</mark> to develop the graphical interface with the [<mark>Qt</mark>](https://www.qt.io/){:target="_blank"} framework. I used the [<mark>fman build system</mark>](https://build-system.fman.io/){:target="_blank"} to package the application and make installers for both Windows and MacOS. I learned a lot about desktop application development from this project, especially regarding packaging and distributing apps. I released Calculux as an open source project under the GNU GPL v3.
+
+- layout: top-middle
+  name: Pong
+  link: github.com/peter-dye/pong
+  github: peter-dye/pong
+  quote: >
+    Online mutliplayer implementation of the classic arcade game Pong.
+  description: | # this will include new lines to allow paragraphs
+    I built pong because I wanted to experiment with developing a real-time multiplayer game that is playable over the internet. In pong, anyone can create a game and send the code to their friend so they can join and battle it out... 70's style! I developed pong with <mark>JavaScript</mark>, using <mark>React</mark> for the frontend and <mark>Node.js</mark> for the backend. The content is served with <mark>Express</mark> and the real-time communication is implemented with <mark>Socket.io</mark>. Pong runs on an <mark>Azure</mark> server and is available for anyone to play. Checkout the GitHub link above to read more about the architecture and see the guide that I made or how to setup an Azure server to run the game.
+
+- layout: top-middle
+  name: PD40
+  link: github.com/peter-dye/pd40-keyboard
+  github: peter-dye/pd40-keyboard
+  quote: >
+    My 40% ortholinear low profile keyboard that I designed and built.
+  description: | # this will include new lines to allow paragraphs
+    The PD40 is a bluetooth keyboard that I designed and built from scratch. It is a handwired 40% ortholinear layout, and it uses Kailh Choc switches for a low profile (specifically linear red switches if you were wondering). The keyboard runs on an Adafruit Feather 32u4, and uses the [QMK](https://qmk.fm/){:target="_blank"} firmware written in <mark>C</mark>. This keyboard is highly optimized for writing code because it makes all the normal syntax characters available with minimal finger movement. I used [FreeCAD](https://www.freecadweb.org/){:target="_blank"} to design and <mark>3D print</mark> the top and bottom of the case. The switches are all handwired, which means I had to solder the diodes and wires to each switch individually to make the matrix. The QMK firmware is specifically designed for computer input devices, so all I had to do here was write the configuration code for a new keyboard implementation. I was new to the keyboard hobby when I built this so <mark>I wrote a detailed guide</mark> on how to build the PD40, which you can find in the GitHub repository.
