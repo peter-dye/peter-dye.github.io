@@ -46,13 +46,21 @@ github_username: peter-dye
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! My name is Peter and I am a Professional Software Developer, recently graduated from UWaterloo. I studied Electrical Engineering with an Option in Computer Engineering and now I work as a Software Developer with Brock Solutions.
+  Hello! My name is Peter and I am a Professional Software Developer interested in all areas of software development.
 
-  I have experience in a whole variety of areas! Some of my favourites include <mark>Python</mark> and the <mark>SciPy</mark> ecosystem, <mark>MATLAB</mark> and <mark>Octave</mark>, <mark>Linux</mark> and <mark>open source software</mark>, <mark>relational databases</mark> and <mark>SQL</mark>, and <mark>algorithms</mark>!
+  I program in <mark>C#</mark>, <mark>Python</mark>, and <mark>JavaScript</mark>.
 
-  I am also comfortable with <mark>Git</mark> and <mark>Github</mark>, <mark>C</mark>, <mark>C++</mark>, and <mark>Java</mark>. Of course, I'm quite profficient in <mark>Microsoft Office</mark>, especially <mark>Word</mark> and <mark>Excel</mark>.
+  I recently graduated from the University of Waterloo where I studied Electrical Engineering with an Option in Computer Engineering. Now I am working as a Software Developer with Brock Solutions developing AutoCAD automation tools.
 
-  I have good <mark>communication skills</mark> that have been proven many times. I have had outstanding results on technical reports and presentations, and even won an award for the quality of writing in one of my reports! I regularly work in and lead many teams, both for school activities and work projects.
+  I have experience and interests in a whole variety of areas! Including:
+    - <mark>Linux</mark> and <mark>open source software</mark>
+    - <mark>Web development</mark>
+    - <mark>Machine learning</mark> and advanced algorithms
+    - <mark>Relational databases</mark> and <mark>SQL</mark>
+    - <mark>Git</mark> and <mark>GitHub</mark>
+    - Learning new langauges; I learned <mark>Rust</mark> for parallel programming
+
+  I have good <mark>communication skills</mark> that have been proven many times. I have had outstanding results on technical reports and presentations, and even won an award for the quality of writing in one of my reports! You can see some writing examples in guides I posted for my projects on GitHub. I've also successfully lead some school and work teams.
 
   Some courses that I have really enjoyed (and done well in) are:
     - Operating Systems and Systems Programming
@@ -61,6 +69,8 @@ about_content: | # this will include new lines to allow paragraphs
     - Robot Dynamics and Control
     - Computer Security
     - Cooperative and Adaptive Algorithms
+    - Fundamentals of Computational Intelligence
+    - Programming for Performance
 
 content:
 
@@ -80,7 +90,7 @@ content:
       quote: >
         An autonomous cigarette butt collection and disposal robot.
       description: | # this will include new lines to allow paragraphs
-        ButtBot is an autonomous ground vehicle that drives around a given space and uses computer vision to identify and collect cigarette butts. The brain of the robot is a [<mark>NVIDIA Jetson Nano</mark>](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/){:target="_blank"}. The smarts of the robot are written in <mark>Python</mark> and make use of many popular libraries. For the computer vision and deep learning we use <mark>OpenCV</mark>, <mark>TensorFlow</mark>, and <mark>Keras</mark>. The project also makes use of <mark>multi-threading</mark> and <mark>multi-processing</mark> to manage and coordinate the different functions of the robot. This is my fourth-year capstone project that I worked on with 4 of my peers, with myself and one other project member taking responsibility for all the software componenets.
+        ButtBot is an autonomous ground vehicle that drives around a given space and uses computer vision to identify and collect cigarette butts. The brain of the robot is a <mark>Linux</mark> based [NVIDIA Jetson Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/){:target="_blank"}. The smarts of the robot are written in <mark>Python</mark> and make use of many popular libraries. For the computer vision and deep learning we use <mark>OpenCV</mark>, <mark>TensorFlow</mark>, and <mark>Keras</mark>. The project also makes use of <mark>multithreading</mark> and <mark>multiprocessing</mark> to manage and coordinate the different functions of the robot. This was my fourth-year capstone project that I worked on with 4 of my peers, with myself and one other project member taking responsibility for all the software componenets.
 
     - layout: top-middle
       title: Calculux
@@ -103,10 +113,10 @@ content:
       quote: >
         Online mutliplayer implementation of the classic arcade game Pong.
       description: | # this will include new lines to allow paragraphs
-        I built pong because I wanted to experiment with developing a real-time multiplayer game that is playable over the internet. In pong, anyone can create a game and send the code to their friend so they can join and battle it out... 70's style! I developed pong with <mark>JavaScript</mark>, using <mark>React</mark> for the frontend and <mark>Node.js</mark> for the backend. The content is served with <mark>Express</mark> and the real-time communication is implemented with <mark>Socket.io</mark>. Pong runs on an <mark>Azure</mark> server and is available for anyone to play. Checkout the GitHub link above to read more about the architecture and see the guide that I made or how to setup an Azure server to run the game.
+        I built pong because I wanted to experiment with developing a real-time <mark>cloud-based</mark> multiplayer game that is playable over the internet. In pong, anyone can create a game and send the code to their friend so they can join and battle it out... 70's style! I developed pong with <mark>JavaScript</mark>, using <mark>React</mark> for the frontend and <mark>Node.js</mark> for the backend. The content is served with <mark>Express</mark> and the real-time communication is implemented with <mark>Socket.io</mark>. Pong runs on an <mark>Azure</mark> server and is available for anyone to play. Checkout the GitHub link above to read more about the architecture and see the guide that I made or how to setup an Azure server to run the game.
 
     - layout: top-middle
-      title: PD40
+      title: PD40 Keyboard
       additional_links:
         - title: peter-dye/pd40-keyboard
           icon: fab fa-github
@@ -115,6 +125,16 @@ content:
         My 40% ortholinear low profile keyboard that I designed and built.
       description: | # this will include new lines to allow paragraphs
         The PD40 is a bluetooth keyboard that I designed and built from scratch. It is a handwired 40% ortholinear layout, and it uses Kailh Choc switches for a low profile (specifically linear red switches if you were wondering). The keyboard runs on an Adafruit Feather 32u4, and uses the [QMK](https://qmk.fm/){:target="_blank"} firmware written in <mark>C</mark>. This keyboard is highly optimized for writing code because it makes all the normal syntax characters available with minimal finger movement. I used [FreeCAD](https://www.freecadweb.org/){:target="_blank"} to design and <mark>3D print</mark> the top and bottom of the case. The switches are all handwired, which means I had to solder the diodes and wires to each switch individually to make the matrix. The QMK firmware is specifically designed for computer input devices, so all I had to do here was write the configuration code for a new keyboard implementation. I was new to the keyboard hobby when I built this so <mark>I wrote a detailed guide</mark> on how to build the PD40, which you can find in the GitHub repository.
+
+################################################################################
+
+- title: Open Source Contributions
+  layout: text
+  content: | # this will include new lines to allow paragraphs
+    I really like the ideals of the open source community and I try to use open source software as much as I can in my work and personal life. My open source contributions thus far have been to improve documentation for software that I was using.
+      - Clarity and code example corrections to the .NET API docs.
+      - Grammar/clarity contribution to SciKit-learn docs.
+      - Miscellaneous fixes to course content for my university Programming for Performance course.
 
 ################################################################################
 
@@ -130,33 +150,36 @@ content:
       quote: >
         Brock Solutions is an engineering solutions and professional services company specializing in the design, build and implementation of real-time solutions for broad based industrial/manufacturing and transportation/logistics organizations globally.
       description: | # this will include new lines to allow paragraphs
-        - Architected and developed automation tools for AutoCAD using C# and .NET.
-        - Took the initiative to implement logging for the automation tools.
-        - Refactored existing code base organization to bring it up to standard with .NET best practices.
+        - Reduced AutoCAD drafting time by developing sophisticated automation tools in <mark>C#</mark> to generate 60% of required drawings.
+        - Increased software insights by starting initiative to add <mark>logging</mark> to new and existing automation tools using Serilog.
+        - Ensured software quality with <mark>unit tests</mark> in NUnit and utilized <mark>dependency injection</mark> with Unity for a testable architecture.
+        - Improved execution time of drawing cross-referencing software by 90% through <mark>profiler guided optimizations</mark>.
+        - Refactored existing code base organization to match <mark>C#</mark> and .NET best practices.
+        - Developed N-ary tree node reduction algorithm given leaf nodes with unordered known ancestors.
 
     - layout: left
       title: Tidal Medical
-      sub_title: Software Lead (Coop)
+      sub_title: Software Lead (Co-op)
       caption: Sept 2020 - Dec 2020
       link: tidalmedical.com
       quote: >
-       Tidal Medical is a dynamic new startup in the medical technology field.
+       Tidal Medical is a dynamic new startup in the medical imaging technology field.
       description: | # this will include new lines to allow paragraphs
-        - Successfully lead software team by exceeding expectations with the final product that was developed.
-        - Architected and developed a GUI application that interfaces with embedded hardware to reconstruct and dislay medical images in real time.
-            - Used Python, Qt through PyQt5, and pyqtgraph, as well as [Cython](https://cython.org/){:target="_blank"} and multithreading for real time images.
+        - Architected <mark>multithreaded Python</mark> application to reconstruct, record, and view medical images at 13 frames/second.
+          - Used Qt through PyQt5, and pyqtgraph, as well as [Cython](https://cython.org/){:target="_blank"} for real time images.
+        - Successfully <mark>lead 3-person software team</mark> in developing the first prototype of a medical imaging system.
         - Modelled advanced image reconstruction algorithms in MATLAB/[Octave](https://octave.sourceforge.io/){:target="_blank"}.
-        - Developed fast embedded system communication to an FPGA using the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface){:target="_blank"} protocol.
+        - Developed fast embedded system communications between <mark>Python</mark> application and a FPGA using the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface){:target="_blank"} protocol.
 
     - layout: left
       title: Brock Solutions
-      sub_title: Controls Engineering (Coop)
+      sub_title: Controls Engineering (Co-op)
       caption: Sept - Dec 2019
       link: brocksolutions.com
       quote: >
        Brock Solutions is an engineering solutions and professional services company specializing in the design, build and implementation of real-time solutions for broad based industrial/manufacturing and transportation/logistics organizations globally.
       description: | # this will include new lines to allow paragraphs
-        - Developed Python script to significantly speed up PLC tag generation process.
+        - Significantly decreased PLC tag generation time by developing <mark>Python</mark> script to automate the process.
         - Learned about the whole software development cycle for PLCs.
         - Performed QA and controls systems validation with PICS and AutoMod simulation programs.
         - Gained lots of experience programming with Ladder Logic to solve a variety of controls problems.
@@ -164,26 +187,26 @@ content:
 
     - layout: left
       title: Smith + Andersen
-      sub_title: Junior Electrical Designer (Coop)
+      sub_title: Junior Electrical Designer (Co-op)
       caption: Jan - Apr 2019
       link: smithandandersen.com
       quote: >
        Smith + Andersen is a trusted Canadian mechanical and electrical consultanting engineering firm, reaching new levels of engineering and design excellence in the communications, security, and audiovisual fields.
       description: | # this will include new lines to allow paragraphs
-        - Developed communication techniques to manage competing deadlines through upwards management.
+        - Improved communication techniques to manage competing deadlines through upwards management.
         -	Deepened experience in electrical system design techniques, as well as in the consulting industry as a whole.
         -	Performed site visits to map existing conditions and investigate design solutions.
         -	Expanded and improved on skills gained from working at Stantec.
 
     - layout: left
       title: Stantec
-      sub_title: Electrical Design Assistant (Coop)
+      sub_title: Electrical Design Assistant (Co-op)
       caption: May - Aug 2018
       link: stantec.com
       quote: >
        Designers, engineers, scientists, and project managers, innovating together at the intersection of community, creativity, and client relationships. Designing with community in mind.
       description: | # this will include new lines to allow paragraphs
-        -	Developed feeder size calculator in Excel to increase efficiency of feeder sizing by around 80%.
+        -	Developed feeder size calculator in Excel to increase efficiency of feeder sizing by 80%.
         -	Experience working on new construction and tenant fit-out for office, retail, warehouse, hospitals and airports.
         -	Designed building systems such as power, lighting, fire alarm and security in accordance with the OESC, OBC, and NFC.
         -	Well versed in modelling building electrical systems using Revit and AutoCAD.
@@ -191,14 +214,14 @@ content:
 
     - layout: left
       title: NAV CANADA
-      sub_title: Engineering Student (Coop)
+      sub_title: Engineering Student (Co-op)
       caption: Jan - Apr & Sept - Dec 2018
       link: navcanada.ca
       quote: >
        Canada's Air Navigation Service Provider, keeping airplanes safe from coast to coast.
       description: | # this will include new lines to allow paragraphs
-        -	Developed and implemented an algorithm to graph data gathered from a precipitation sensor.
-        -	Developed a system to record weather data from various sensors using a web-based environment on Raspberry Pi.
+        -	Developed a <mark>local network</mark> data logger for weather sensors by using PHP and <mark>MySQL</mark> running on a <mark>Raspberry Pi server</mark>.
+        -	Developed a <mark>JavaScript</mark> algorithm to graph data gathered from a precipitation sensor over a specified period.
         -	Created and modified technical schematics in AutoCAD while adhering to company standards.
         -	Designed a power supply to be integrated into an existing system.
         -	Authored technical documentation for installation and upkeep of airport weather systems.
@@ -208,16 +231,20 @@ content:
 - title: Education
   layout: list
   content:
+
     - layout: left
+      border: weak
       title: University of Waterloo
       sub_title: Bachelor of Applied Science <br/> Major in Electrical Engineering <br/> Option in Computer Engineering
       caption: Sept 2016 - Apr 2021
       quote: >
         Canada's most innovative university, with a world renowned engineering faculty, and a co-op program that is second to none.
       description: | # this will include new lines to allow paragraphs
-        I majored in Electrical Engineering and completed an additional Option in Computer Engineering. This allowed me to gain valuable exposure to both hardware and software, although I focused on software for my upper-year courses. I enjoyed my academics and did well in them; I usually ranked near the top of my class. Have a look at my [transcript](../images/transcript.pdf){:target="_blank"} if you are interested!
+        I majored in Electrical Engineering and completed an additional Option in Computer Engineering. This allowed me to gain valuable exposure to both hardware and software, although I focused on software for my upper-year courses. I enjoyed my academics and did well in them; I usually ranked near the top of my class. My cumulative average was <mark>86.3%</mark> and my fourth-year average was <mark>90.9%</mark>. Have a look at my [transcript](../images/transcript.pdf){:target="_blank"} if you are interested!
 
         Outside of academics, I was heavily involved in campus life. I dedicated large amounts of time to the Engineering Society, and served as VP Finance where I managed our termly operating budget of approximately $80,000, along with other society operations. I also organized various events, was elected as a class Academic Representative, chaired Engineering Society meetings, and sat on the Engineering Society board of directors.
+
+        I also taught 50 students the basics of the <mark>Linux</mark> command line by organizing and running a technical workshop.
 
         My favourite invovlment at university has to be as an orientation leader. I was able to welcome multiple years of new students and help organize and run fun orientation weeks for everyone who participated.
 
@@ -227,6 +254,21 @@ content:
             - Participated in the case study competition and placed second.
           - Conference for Sustainability in Engineering (national).
             - Participated in the case study competition and placed third.
+
+    - layout: left
+      title: Professional Development
+      # sub_title:
+      # caption:
+      quote: >
+        "The more that you read, the more things you will know. The more that you learn, the more places you’ll go.” - Dr. Seuss
+      description: | # this will include new lines to allow paragraphs
+        Personally I learn best from books, so I wanted to kickstart my software development career by reading some books that contain years of experience from some very smart minds.
+
+        [Code Complete](https://www.goodreads.com/en/book/show/4845.Code_Complete): This book is all about code construction. It deals with low level implementation details relevant to the everyday writing of code such as variable naming, functions and parameters, classes, and above all, readability. My main takeaway was that readability is the most important and one of the hardest things to achieve in a complex software system.
+
+        [The Clean Coder](https://www.goodreads.com/book/show/10284614-the-clean-coder): This book is all about being a professional as a software developer. The book talks about the best way to handle various office situations, working in teams, mentoring and being mentored, and working efficiently as a software developer. My main takeaway was that professional programmers need to constantly be practicing their craft, in addition to what they do at work.
+
+        [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer): This book focuses on building robust software. It covers programming techniques for software that is easy to maintain, such as decoupling and reducing duplication. It discusses interesting paradigms to avoid errors (such as design by contract) and possible actions to take if errors are present at runtime. My main takeaway is that software should be made as configurable as possible so that future changes have minimal impact on only one area of the code base.
 
 ################################################################################
 
