@@ -46,27 +46,26 @@ github_username: peter-dye
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Peter and I am a Professional Software Developer interested in all areas of software development.
+  Hello! My name is Peter and I am a Professional Software Developer interested in all areas of software development. I have 6 years of experience and am looking for a senior role for the next chapter in my career. I am passionate about writing high quality code.
 
-  I program in <mark>C#</mark>, <mark>Python</mark>, and <mark>JavaScript</mark>.
+  I usually program in <mark>C#</mark> and <mark>.NET</mark> but I often use other technologies as well. I have experience with many parts of a software project including enterprise scale legacy code bases, greenfield projects, Agile teams, code reviews and code quality, and mentoring colleagues and juniors in my areas of expertise.
 
-  I recently graduated from the University of Waterloo where I studied Electrical Engineering with an Option in Computer Engineering. Now I am working as a Software Developer with Brock Solutions developing AutoCAD automation tools.
+  I graduated from the University of Waterloo where I studied Electrical Engineering with an Option in Computer Engineering. Now I am working as a Software Developer with Senstar developing the Symphony platform, a distributed security management system that collects video camera feeds and alarms.
 
   I have experience and interests in a whole variety of areas! Including:
     - <mark>Linux</mark> and <mark>open source software</mark>
-    - <mark>Web development</mark>
-    - <mark>Machine learning</mark> and advanced algorithms
+    - <mark>SSL Certificates</mark> and <mark>cybersecurity</mark>
     - <mark>Relational databases</mark> and <mark>SQL</mark>
+    - <mark>Front-end</mark> and <mark>server-side</mark> development
     - <mark>Git</mark> and <mark>GitHub</mark>
     - Learning new langauges; I learned <mark>Rust</mark> for parallel programming
 
-  I have good <mark>communication skills</mark> that have been proven many times. I have had outstanding results on technical reports and presentations, and even won an award for the quality of writing in one of my reports! You can see some writing examples in guides I posted for my projects on GitHub. I've also successfully lead some school and work teams.
+  I have good <mark>communication skills</mark> that have been proven many times. I have had outstanding results on technical reports and presentations, and even won an award for the quality of writing in one of my reports! You can see some writing examples in guides I posted for my projects on GitHub. I've also successfully lead school and work teams.
 
   Some courses that I have really enjoyed (and done well in) are:
     - Operating Systems and Systems Programming
     - Compilers
     - Database Systems
-    - Robot Dynamics and Control
     - Computer Security
     - Cooperative and Adaptive Algorithms
     - Fundamentals of Computational Intelligence
@@ -143,9 +142,27 @@ content:
   content:
 
     - layout: left
+      title: Senstar
+      sub_title: Software Developer
+      caption: July 2022 - Present
+      link: senstar.com
+      quote: >
+        Senstar is a leader in perimeter secutiry sensors and the security management software that pulls together sensors, cameras, and other security information sources.
+      description: | # this will include new lines to allow paragraphs
+        - Tackled 100s of features and bugs for server, database, desktop, and web aspects of a <mark>distributed</mark> security management system.
+        - Re-architected <mark>SSL Certificate</mark> handling to follow security best practices.
+        - <mark>Integrated third-party systems</mark> to our alarm framework.
+        - Leveraged <mark>Agents</mark> in every part of developing a greenfield product.
+        - Championed <mark>code quality</mark> by introducing linters, through code reviews, and by fixing warnings.
+        - Improved internal infrastructure reliability and dev-ops with <mark>GitHub Actions</mark>.
+        - <mark>Mentored colleagues</mark> and co-ops in my areas of expertise through pairing and code reviews.
+        - Collaborated with Product and Support teams to solve real customer problems.
+        - Developer a gstreamer element and GPU shader to de-warp fisheye video at 4K 60FPS.
+        
+    - layout: left
       title: Brock Solutions
       sub_title: Software Developer
-      caption: May 2021 - Present
+      caption: May 2021 - July 2022
       link: brocksolutions.com
       quote: >
         Brock Solutions is an engineering solutions and professional services company specializing in the design, build and implementation of real-time solutions for broad based industrial/manufacturing and transportation/logistics organizations globally.
@@ -155,7 +172,7 @@ content:
         - Ensured software quality with <mark>unit tests</mark> in NUnit and utilized <mark>dependency injection</mark> with Unity for a testable architecture.
         - Improved execution time of drawing cross-referencing software by 90% through <mark>profiler guided optimizations</mark>.
         - Refactored existing code base organization to match <mark>C#</mark> and .NET best practices.
-        - Developed N-ary tree node reduction algorithm given leaf nodes with unordered known ancestors.
+        - Created an N-ary tree node reduction algorithm given leaf nodes with unordered known ancestors.
 
     - layout: left
       title: Tidal Medical
@@ -270,17 +287,20 @@ content:
 
         [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer): This book focuses on building robust software. It covers programming techniques for software that is easy to maintain, such as decoupling and reducing duplication. It discusses interesting paradigms to avoid errors (such as design by contract) and possible actions to take if errors are present at runtime. My main takeaway is that software should be made as configurable as possible so that future changes have minimal impact on only one area of the code base.
 
+        [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture): Reading this book really opened my mind to how large scale software systems are architected. The author starts from the basic SOLID principles and extends them to module and service level principles that are applied to larger software components. Something I learned that really helped me in my work was the Dependency Inversion and Dependency Injection principles to reduce coupling and enable easy testing.
+
 ################################################################################
 
 - title: A Little More About Me
   layout: text
   content: | # this will include new lines to allow paragraphs
     Some of my other interests and hobbies are:
-     - Flying airplanes and sailplanes; I have two pilots licenses!
-     - Cooking and baking; I love trying new techniques and working with new ingredients!
      - Biking; especially mountain biking and downhilling!
+     - Canoeing and kayaking; the repetitive motion of paddling is very relaxing... until the whitewater rapids!
+     - BBQ; I love smoking different cuts of meat to make something deicious!
      - Skiing; the bigger the mountain the better!
-     - Reading and learning; I enjoy a good book, especially sci-fi, and love to investigate new things!
+     - Sewing; I make my own outdoor gear such as backpacks and jackets!
+     - Reading; I enjoy a good book, especially sci-fi and fantasy!
 
 # Footer
 footer_show_references: false
